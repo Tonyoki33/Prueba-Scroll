@@ -1,0 +1,109 @@
+* {
+    margin: 0;         
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    scroll-snap-align: start;
+}
+
+.container {
+    height: 100vh;
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+}
+
+/*Box containers*/
+
+.container_box--one {
+    height: 300px;
+    width: 400px;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    background-color: snow;
+    border-radius: 30px 30px 5px 5px;
+    border-bottom: solid 60px lightblue;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 50);
+}
+
+.container_box--two {
+    height: 300px;
+    width: 400px;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    background-color: snow;
+    border-radius: 30px 30px 5px 5px;
+    border-bottom: solid 60px darkslateblue;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 50);
+}
+
+.container_box--three {
+    height: 300px;
+    width: 400px;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    background-color: snow;
+    border-radius: 30px 30px 5px 5px;
+    border-bottom: solid 60px tomato;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 50);
+}
+
+.container_box--four {
+    height: 300px;
+    width: 400px;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    background-color: snow;
+    border-radius: 30px 30px 5px 5px;
+    border-bottom: solid 60px sandybrown;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 50);
+}
+
+
+.button {
+    cursor: pointer;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    background-color: snow;
+    border-radius: 30px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 50);
+    width: 180px;
+    height: 50px;
+}
+
+.button:hover {
+    background-color: violet;
+}
+/*Backgroundous  --*/
+
+.one {
+    background-color: darkslateblue;
+}
+
+.two {
+    background-color: lightblue;
+}
+
+.three {
+    background-color: sandybrown;
+}
+
+.four {
+    background-color: tomato;
+}
