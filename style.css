@@ -88,13 +88,12 @@ section {
 }
 
 .button:hover {
-    background-color: violet;
-    background-image: url(/img/violet.jfif);
+    background-color: violet;   
 }
 /*Backgroundous  --*/
 
 .one {
-    background-color: darkslateblue;
+    background-image: url(/img/violet.jfif);
 }
 
 .two {
